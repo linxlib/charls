@@ -2,9 +2,9 @@ package charls
 
 /*
 #cgo CFLAGS: -Iinclude -O2 -fomit-frame-pointer
-#cgo linux LDFLAGS: ${SRCDIR}/include/linux/libcharls.a
-#cgo darwin LDFLAGS: ${SRCDIR}/include/darwin/libcharls.a
-#cgo windows LDFLAGS: ${SRCDIR}/include/win/libcharls.a
+#cgo linux LDFLAGS: ${SRCDIR}/include/linux/libcharls.a -lstdc++
+#cgo darwin LDFLAGS: ${SRCDIR}/include/darwin/libcharls.a -lstdc++
+#cgo windows LDFLAGS: ${SRCDIR}/include/win/libcharls.a -lstdc++
 
 #import "charls.h"
 */
